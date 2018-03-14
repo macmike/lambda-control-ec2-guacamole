@@ -1,0 +1,55 @@
+body {
+    font-family: "Verdana", Helvetica, Arial, sans-serif;
+    background-color: #343434;
+    background: url("assets/rv_background.png"), #343434;
+    background-repeat: repeat;    
+    color: #e6e6e6;
+    display: block;
+}
+
+
+
+
+a[href] {
+	color: #1e8ad6;
+}
+
+a[href]:hover {
+	color: #3ba0e6;
+}
+
+
+
+.badstatus {
+    color: lightcoral;
+    font-weight: bolder;
+}
+
+.goodstatus {
+    color: #76CDAF;/*9bd39b*/
+    font-weight: bolder;
+}
+
+.notes {
+    font-style: italic;
+    font-size: 12px;
+}
+
+h3 {
+    padding-top: 0.5cm;
+}
+h1 {
+    padding: 0.5cm;
+}
+
+
+
+
+
+#logText {
+    padding: 10px;
+    margin: 5px;
+    border: solid #cccccc 1px;
+    max-width: 400px;
+    vertical-align: top;
+}
